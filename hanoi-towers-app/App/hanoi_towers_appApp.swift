@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct hanoi_towers_appApp: App {
+    let diContainer = HanoiDIContainer()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            diContainer.HanoiTowersScreen
         }
     }
 }

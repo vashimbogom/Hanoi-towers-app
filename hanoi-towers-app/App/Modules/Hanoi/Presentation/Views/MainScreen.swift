@@ -7,19 +7,47 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct MainScreen<ViewModel>: View where ViewModel: HanoiViewModelProtocol {
+    
+    @StateObject var viewModel: HanoiViewModel
+    
     var body: some View {
-        VStack {
-            Image(systemName: "chart.bar.fill")
-                .font(.largeTitle)
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Tower of Hanoi Puzzle")
+        
+        ZStack {
+            
+            BGHanoiImage()
+            
+            ScrollView {
+                VStack {
+                    
+                    HeaderView(viewModel: viewModel)
+                    
+                    if let error = viewModel.errorMsg {
+                        
+                        ErrorView(errorMessage: error)
+                        
+                    }
+                    else
+                    {
+                        
+                        RodsView(viewModel: viewModel)
+                            .frame(height: 400)
+                        
+                        if let step = viewModel.steps.first {
+                            Text(step.toString())
+                                .foregroundStyle(.blue)
+                                .padding(.top)
+                        }
+                    
+                        StepHistory(stepHistory: $viewModel.stepHistory)
+                    }
+                    
+                }
+            }
         }
-        .padding()
     }
 }
 
 #Preview {
-    ContentView()
+    HanoiDIContainer().HanoiTowersScreen
 }
