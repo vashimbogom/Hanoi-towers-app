@@ -1,0 +1,20 @@
+//
+//  EnvConfig.xcconfig
+//  hanoi-towers-app
+//
+
+//Please Set the App Environment (MOCK | DEV | PROD)
+APP_ENVIRONMENT=PROD
+
+//Please Set the corresponding Network Services Host Information
+HOST_SCHEME=https
+HOST_BASE_URL=hanoi-towers-api.fly.dev
+
+
+////Please Set the App Environment (MOCK | DEV | PROD)
+//APP_ENVIRONMENT=DEV
+//
+////Please Set the corresponding Network Services Host Information
+//HOST_SCHEME=http
+//HOST_BASE_URL=127.0.0.1
+//HOST_PORT=8080

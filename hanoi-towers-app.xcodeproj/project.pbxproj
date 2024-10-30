@@ -10,9 +10,22 @@
 		0FDB95C92CD1C7A700F54E22 /* hanoi-towers-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hanoi-towers-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		0F4C66CB2CD2A23900485704 /* Exceptions for "hanoi-towers-app" folder in "hanoi-towers-app" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 0FDB95C82CD1C7A700F54E22 /* hanoi-towers-app */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		0FDB95CB2CD1C7A700F54E22 /* hanoi-towers-app */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				0F4C66CB2CD2A23900485704 /* Exceptions for "hanoi-towers-app" folder in "hanoi-towers-app" target */,
+			);
 			path = "hanoi-towers-app";
 			sourceTree = "<group>";
 		};
@@ -127,6 +140,8 @@
 /* Begin XCBuildConfiguration section */
 		0FDB95D52CD1C7A900F54E22 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 0FDB95CB2CD1C7A700F54E22 /* hanoi-towers-app */;
+			baseConfigurationReferenceRelativePath = App/Networking/Configuration/EnvConfig.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -190,6 +205,8 @@
 		};
 		0FDB95D62CD1C7A900F54E22 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 0FDB95CB2CD1C7A700F54E22 /* hanoi-towers-app */;
+			baseConfigurationReferenceRelativePath = App/Networking/Configuration/EnvConfig.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -246,6 +263,8 @@
 		};
 		0FDB95D82CD1C7A900F54E22 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 0FDB95CB2CD1C7A700F54E22 /* hanoi-towers-app */;
+			baseConfigurationReferenceRelativePath = App/Networking/Configuration/EnvConfig.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -254,9 +273,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"hanoi-towers-app/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "hanoi-towers-app/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Tower of Hanoi";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -274,6 +297,8 @@
 		};
 		0FDB95D92CD1C7A900F54E22 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 0FDB95CB2CD1C7A700F54E22 /* hanoi-towers-app */;
+			baseConfigurationReferenceRelativePath = App/Networking/Configuration/EnvConfig.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -282,9 +307,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"hanoi-towers-app/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "hanoi-towers-app/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Tower of Hanoi";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
