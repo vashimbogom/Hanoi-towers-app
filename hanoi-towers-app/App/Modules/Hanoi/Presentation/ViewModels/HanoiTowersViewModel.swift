@@ -63,7 +63,7 @@ class HanoiViewModel: HanoiViewModelProtocol {
         (isPlaying, isLoading) = ( true, true )
         
         do {
-            let responseSteps = try await hanoiTowerUseCase.solveHanoiTowers(numberOfdisks: diskCount, algorithm: .iterative)
+            let responseSteps = try await hanoiTowerUseCase.solveHanoiTowers(numberOfdisks: diskCount, algorithm: .recursive)
             isLoading = false
             errorMsg = nil
             steps = responseSteps

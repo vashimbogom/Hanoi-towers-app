@@ -16,11 +16,15 @@ struct AppConstants {
         }
         
         enum Screens {
-            static let title = "Towers of Hanoi"
-            static let disksLbl = "disks:"
-            static let disksHelp = "Disks #"
-            static let velocityLbl = "vel:"
-            static let velocityHelp = "in seconds"
+            static let title = String(localized: "Towers of Hanoi")
+            static let disksLbl = String(localized: "disks:")
+            static let disksHelp = String(localized: "Disks #")
+            static let velocityLbl = String(localized: "vel:")
+            static let velocityHelp = String(localized: "in seconds")
+            static let stepDescTake = String(localized: "Take disk")
+            static let stepDescFrom = String(localized: "from rod")
+            static let stepDescTo = String(localized: "to rod")
+            
         }
         
         enum Images {

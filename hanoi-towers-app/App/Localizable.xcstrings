@@ -1,0 +1,238 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "%lld" : {
+
+    },
+    "Disks #" : {
+      "comment" : "Disks number placeholder",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disks #"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "# Discos"
+          }
+        }
+      }
+    },
+    "disks:" : {
+      "comment" : "disks #",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "disks:"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "discos:"
+          }
+        }
+      }
+    },
+    "disksHelp" : {
+      "comment" : "Disks number placeholder",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disks #"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "# Discos"
+          }
+        }
+      }
+    },
+    "disksLbl" : {
+      "comment" : "disks #",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "disks:"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "discos:"
+          }
+        }
+      }
+    },
+    "from rod" : {
+      "comment" : "From instruction",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "from rod"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "de la barra"
+          }
+        }
+      }
+    },
+    "in seconds" : {
+      "comment" : "Velocity to solve the puzzle helper",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "in seconds"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "en segundos"
+          }
+        }
+      }
+    },
+    "stepDescription" : {
+      "extractionState" : "manual"
+    },
+    "Take disk" : {
+      "comment" : "Take disk instruction",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Take disk"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mueve el disco"
+          }
+        }
+      }
+    },
+    "title" : {
+      "comment" : "Main title",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Towers of Hanoi"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Torres de Hanoi"
+          }
+        }
+      }
+    },
+    "to rod" : {
+      "comment" : "to rod instruction",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "to rod"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "a la barra"
+          }
+        }
+      }
+    },
+    "Towers of Hanoi" : {
+      "comment" : "Main title",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Towers of Hanoi"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Torres de Hanoi"
+          }
+        }
+      }
+    },
+    "vel:" : {
+      "comment" : "Velocity to solve the puzzle",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "vel:"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "vel:"
+          }
+        }
+      }
+    },
+    "velocityHelp" : {
+      "comment" : "Velocity to solve the puzzle helper",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "in seconds"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "en seg"
+          }
+        }
+      }
+    },
+    "velocityLbl" : {
+      "comment" : "Velocity to solve the puzzle",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "vel:"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "vel:"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

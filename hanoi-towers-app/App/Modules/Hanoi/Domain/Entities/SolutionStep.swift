@@ -28,6 +28,9 @@ struct SolutionStep: Decodable, Identifiable {
     }
     
     func toString() -> String {
-        "Take disk \(disk) from rod \(sourceRod) to rod \(destinationRod)"
+        let takeStr = AppConstants.Hanoi.Screens.stepDescTake
+        let fromStr = AppConstants.Hanoi.Screens.stepDescFrom
+        let toStr = AppConstants.Hanoi.Screens.stepDescTo
+        return "\(takeStr) \(disk) \(fromStr) \(sourceRod) \(toStr) \(destinationRod)"
     }
 }
